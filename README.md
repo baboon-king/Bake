@@ -2,8 +2,6 @@
 
 **Bake** is a lightweight, blazing-fast, and developer-friendly cross-platform desktop application bundler built with **Bun** and **Webview**. It empowers frontend developers to build, debug, and package native desktop apps using pure JavaScript/TypeScript and web technologies—offering a compelling alternative to Electron and Tauri with smaller bundle size and faster startup.
 
----
-
 ## Features
 
 - **Minimal footprint:** Bundled apps typically range from 5MB to 60MB, significantly smaller than Electron-based apps.
@@ -12,8 +10,6 @@
 - **Seamless system API access:** Easily extend system integrations like clipboard, file dialogs, notifications via Bun’s native bridge.
 - **Simple bundling:** One command bundles your app into a native executable for Windows/macOS/Linux.
 - **Easy scaffolding:** Start a new project with a simple CLI, no complex Rust or C knowledge needed.
-
----
 
 ## Why Bake?
 
@@ -28,8 +24,6 @@
 | **System APIs**           | Rich, but large    | Rich, Rust-powered             | Growing, JS + native bridge |
 | **Community & Ecosystem** | Mature, large      | Growing, smaller               | Emerging, innovative        |
 
----
-
 ## Inspiration
 
 Bake draws inspiration from:
@@ -39,8 +33,6 @@ Bake draws inspiration from:
 - [webview-bun](https://github.com/tr1ckydev/webview-bun): Demonstrated the power of Bun + Webview for desktop apps with high performance and small size.
 
 Bake aims to combine the best of these worlds: **speed, simplicity, and small size**—while fully embracing JavaScript/TypeScript and modern web tooling.
-
----
 
 ## Roadmap
 
@@ -53,8 +45,6 @@ Bake aims to combine the best of these worlds: **speed, simplicity, and small si
 - [ ] Rich documentation and examples
 - [ ] Continuous integration & automated releases
 
----
-
 ## Getting Started
 
 ```bash
@@ -63,13 +53,9 @@ cd my-app
 bun run build
 ```
 
----
-
 ## Contribution
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
-
----
 
 ## License
 
