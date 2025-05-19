@@ -1,6 +1,6 @@
-# Bake
+# Bunv
 
-**Bake** is a lightweight, blazing-fast, and developer-friendly cross-platform desktop application bundler built with **Bun** and **Webview**. It empowers frontend developers to build, debug, and package native desktop apps using pure JavaScript/TypeScript and web technologies—offering a compelling alternative to Electron and Tauri with smaller bundle size and faster startup.
+**Bunv** is a lightweight, blazing-fast, and developer-friendly cross-platform desktop application bundler built with **Bun** and **Webview**. It empowers frontend developers to build, debug, and package native desktop apps using pure JavaScript/TypeScript and web technologies—offering a compelling alternative to Electron and Tauri with smaller bundle size and faster startup.
 
 ## Features
 
@@ -11,9 +11,9 @@
 - **Simple bundling:** One command bundles your app into a native executable for Windows/macOS/Linux.
 - **Easy scaffolding:** Start a new project with a simple CLI, no complex Rust or C knowledge needed.
 
-## Why Bake?
+## Why Bunv?
 
-| Feature                   | Electron           | Tauri                          | Bake (Bun + Webview)        |
+| Feature                   | Electron           | Tauri                          | Bunv (Bun + Webview)        |
 | ------------------------- | ------------------ | ------------------------------ | --------------------------- |
 | **Runtime**               | Node.js + Chromium | Rust + Webview                 | Bun + Webview               |
 | **Bundle size**           | 100MB+             | 5-30MB                         | \~5-60MB                    |
@@ -26,29 +26,29 @@
 
 ## Inspiration
 
-Bake draws inspiration from:
+Bunv draws inspiration from:
 
 - [Electron](https://www.electronjs.org/): The most popular desktop app framework, providing rich APIs but heavyweight.
 - [Tauri](https://tauri.app/): A Rust-based, lightweight alternative with excellent system integration but steep learning curve.
 - [webview-bun](https://github.com/tr1ckydev/webview-bun): Demonstrated the power of Bun + Webview for desktop apps with high performance and small size.
 
-Bake aims to combine the best of these worlds: **speed, simplicity, and small size**—while fully embracing JavaScript/TypeScript and modern web tooling.
+Bunv aims to combine the best of these worlds: **speed, simplicity, and small size**—while fully embracing JavaScript/TypeScript and modern web tooling.
 
 ## Roadmap
 
-- [x] Core Bun + Webview integration to launch native windows
-- [x] Basic JS/TS bridge for calling system APIs (clipboard, file dialogs, notifications)
-- [x] Simple CLI scaffolding for new projects
-- [x] Cross-platform build pipeline for Windows/macOS/Linux
+- [ ] Core Bun + Webview integration to launch native windows
+- [ ] Basic JS/TS bridge for calling system APIs (clipboard, file dialogs, notifications)
+- [ ] Simple CLI scaffolding for new projects
+- [ ] Cross-platform build pipeline for Windows/macOS/Linux
 - [ ] Advanced system API wrappers (tray, shortcuts, multi-window support)
-- [ ] Plugin system to extend Bake’s capabilities easily
+- [ ] Plugin system to extend Bunv’s capabilities easily
 - [ ] Rich documentation and examples
 - [ ] Continuous integration & automated releases
 
 ## Getting Started
 
 ```bash
-bun create bake my-app
+bun create Bunv my-app
 cd my-app
 bun run build
 ```
